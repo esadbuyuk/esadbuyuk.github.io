@@ -26164,7 +26164,7 @@ _.z=d},
 il:function il(a,b,c){this.a=a
 this.b=b
 this.c=c},
-azI(){var s="/trainerProfile",r=new A.vN(new A.jZ("http://13.60.244.86/")),q=$.iv().d?s:"/playerProfile"
+azI(){var s="/trainerProfile",r=new A.vN(new A.jZ("https://studentcoaching.tech/")),q=$.iv().d?s:"/playerProfile"
 r.b=A.b([new A.il("SON DENEME",B.nQ,"/list"),new A.il("GRAF\u0130KLER",B.nT,"/charts"),new A.il("EN \u0130Y\u0130LER",B.nR,"/monthWinners"),new A.il("PROF\u0130L",B.nP,q),new A.il("KO\xc7LAR",B.nS,s)],t.K3)
 return r},
 vN:function vN(a){this.a=a
@@ -85821,7 +85821,7 @@ return A.K($async$z1,r)},
 yY(){var s=0,r=A.L(t._g),q,p=this,o,n,m,l,k,j
 var $async$yY=A.M(function(a,b){if(a===1)return A.I(b,r)
 while(true)switch(s){case 0:s=3
-return A.Q(A.fv(A.bX("http://16.16.25.238/main_skills_of_the_disciple.php?discipleId="+p.a,0,null)),$async$yY)
+return A.Q(A.fv(A.bX(p.b+"main_skills_of_the_disciple.php?discipleId="+p.a,0,null)),$async$yY)
 case 3:j=b
 if(j.b===200){o=t.j.a(B.ay.bX(0,A.kd(J.aR(A.kc(j.e).c.a,"charset")).bX(0,j.w)))
 n=J.aA(o)
@@ -85922,26 +85922,26 @@ return this.b=q},
 mY(a){return!1}}
 A.aih.prototype={
 z3(a,b){return this.akD(a,b)},
-akD(a,b){var s=0,r=A.L(t._g),q,p,o
+akD(a,b){var s=0,r=A.L(t._g),q,p=this,o,n
 var $async$z3=A.M(function(c,d){if(c===1)return A.I(d,r)
 while(true)switch(s){case 0:s=3
-return A.Q(A.fv(A.bX("http://16.16.25.238/sub_skills_of_the_disciple.php?discipleId="+a+"&skillId="+b,0,null)),$async$z3)
-case 3:o=d
-if(o.b===200){p=J.kg(t.j.a(B.ay.bX(0,A.kd(J.aR(A.kc(o.e).c.a,"charset")).bX(0,o.w))),new A.ail(a),t.Vm)
-q=A.a_(p,!0,p.$ti.h("ax.E"))
+return A.Q(A.fv(A.bX(p.a+"sub_skills_of_the_disciple.php?discipleId="+a+"&skillId="+b,0,null)),$async$z3)
+case 3:n=d
+if(n.b===200){o=J.kg(t.j.a(B.ay.bX(0,A.kd(J.aR(A.kc(n.e).c.a,"charset")).bX(0,n.w))),new A.ail(a),t.Vm)
+q=A.a_(o,!0,o.$ti.h("ax.E"))
 s=1
 break}else throw A.c(A.ck("Failed to load skill content data"))
 case 1:return A.J(q,r)}})
 return A.K($async$z3,r)},
 yZ(a){return this.akB(a)},
-akB(a){var s=0,r=A.L(t.q7),q,p,o
+akB(a){var s=0,r=A.L(t.q7),q,p=this,o,n
 var $async$yZ=A.M(function(b,c){if(b===1)return A.I(c,r)
 while(true)switch(s){case 0:s=3
-return A.Q(A.fv(A.bX("http://16.16.25.238/get_scores_with_dates_of_all_main_skills.php?discipleId="+a,0,null)),$async$yZ)
-case 3:o=c
-if(o.b===200){p=A.y(t.N,t._g)
-J.iy(t.a.a(B.ay.bX(0,A.kd(J.aR(A.kc(o.e).c.a,"charset")).bX(0,o.w))),new A.aij(p,a))
-q=p
+return A.Q(A.fv(A.bX(p.a+"get_scores_with_dates_of_all_main_skills.php?discipleId="+a,0,null)),$async$yZ)
+case 3:n=c
+if(n.b===200){o=A.y(t.N,t._g)
+J.iy(t.a.a(B.ay.bX(0,A.kd(J.aR(A.kc(n.e).c.a,"charset")).bX(0,n.w))),new A.aij(o,a))
+q=o
 s=1
 break}else throw A.c(A.ck("Failed to load skill scores data"))
 case 1:return A.J(q,r)}})
@@ -86197,9 +86197,9 @@ this.b=r}}
 A.rN.prototype={}
 A.Rp.prototype={}
 A.pw.prototype={
-ab(){return new A.yH(60*$.v().gM(),80*$.v().gM(),new A.j5(),new A.jZ("http://13.60.244.86/"),20*$.v().gM(),20*$.v().gM(),null,null)}}
+ab(){return new A.yH(60*$.v().gM(),80*$.v().gM(),new A.j5(),new A.jZ("https://studentcoaching.tech/"),20*$.v().gM(),20*$.v().gM(),null,null)}}
 A.yH.prototype={
-aw(){var s,r,q=this,p="http://13.60.244.86/"
+aw(){var s,r,q=this,p="https://studentcoaching.tech/"
 q.aJ()
 q.a.toString
 q.fr=$.iv().a
@@ -86553,12 +86553,12 @@ this.cg()
 this.f2()}}
 A.SJ.prototype={}
 A.rl.prototype={
-ab(){return new A.XZ(new A.a53("http://13.60.244.86/"),A.PT(null,null))}}
+ab(){return new A.XZ(new A.a53("https://studentcoaching.tech/"),A.PT(null,null))}}
 A.XZ.prototype={
 aw(){var s,r=this
 r.aJ()
 r.f=r.d.yX()
-s=new A.E3("http://13.60.244.86/")
+s=new A.E3("https://studentcoaching.tech/")
 r.r=s
 s.q5()},
 H(a){var s=$.v().gaz(),r=A.IN(a,!0),q=this.f
@@ -86643,7 +86643,7 @@ A.atx.prototype={
 $1(a){A.nE(this.a).kF(0,"/charts",null)},
 $S:37}
 A.uy.prototype={
-H(a){var s,r,q=null,p="http://13.60.244.86/",o=A.IN(a,!1),n=A.R(B.d.af(25.5),0,0,0),m=A.a4(q,q,B.e,q,q,q,q,q,q,q),l=A.Z(q,20*$.v().gM(),q),k=A.Z(B.IQ,q,180*$.v().gM()),j=A.Z(q,20*$.v().gM(),q),i=$.v().gM(),h=t.p
+H(a){var s,r,q=null,p="https://studentcoaching.tech/",o=A.IN(a,!1),n=A.R(B.d.af(25.5),0,0,0),m=A.a4(q,q,B.e,q,q,q,q,q,q,q),l=A.Z(q,20*$.v().gM(),q),k=A.Z(B.IQ,q,180*$.v().gM()),j=A.Z(q,20*$.v().gM(),q),i=$.v().gM(),h=t.p
 h=A.b([new A.fH(1,B.bG,m,q),A.Z(A.e8(B.p,A.bf(A.b([B.Js,l,k,j,A.Z(A.e8(B.p,new A.Db(new A.y5(new A.y4("KA\u0130HL","KA\u0130HL","T\xfcrkiye'ye \xd6nc\xfc, D\xfcnyaya \xd6rnek",p)),q),B.e,B.ar),q,180*i)],h),B.m,B.n,B.l),B.e,B.ar),250,q),new A.fH(1,B.bG,A.a4(q,q,B.e,q,q,q,q,q,q,q),q)],h)
 m=t.w
 if(A.ba(a,B.ax,m).w.a.a<500){l=$.v().gM()
@@ -86702,10 +86702,10 @@ A.nE(r).kF(0,s,null)},
 $S:0}
 A.qB.prototype={
 ab(){var s=$.aB()
-return new A.Ni(new A.rF(B.l6,s),new A.rF(B.l6,s),new A.jZ("http://13.60.244.86/"))}}
+return new A.Ni(new A.rF(B.l6,s),new A.rF(B.l6,s),new A.jZ("https://studentcoaching.tech/"))}}
 A.Ni.prototype={
 aw(){this.aJ()},
-H(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=null,e="KA\u0130HL",d="T\xfcrkiye'ye \xd6nc\xfc, D\xfcnyaya \xd6rnek",c="http://13.60.244.86/",b="MyThinFont",a=t.w,a0=A.ba(a1,B.ax,a).w.a.a<500?f:600
+H(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=null,e="KA\u0130HL",d="T\xfcrkiye'ye \xd6nc\xfc, D\xfcnyaya \xd6rnek",c="https://studentcoaching.tech/",b="MyThinFont",a=t.w,a0=A.ba(a1,B.ax,a).w.a.a<500?f:600
 a=A.ba(a1,B.ax,a).w.a.a<500?B.Iw:B.Iv
 s=A.Z(A.e8(B.p,new A.K4(new A.y5(new A.y4(e,e,d,c)),f),B.e,B.ar),40,f)
 r=A.Z(f,5*$.v().gM(),f)
@@ -86840,7 +86840,7 @@ A.awy.prototype={
 $0(){this.a.ee(0)},
 $S:17}
 A.qN.prototype={
-ab(){return new A.NF(60*$.v().gM(),80*$.v().gM(),new A.j5(),new A.jZ("http://13.60.244.86/"),150*$.v().gM(),30*$.v().gM(),null,null)}}
+ab(){return new A.NF(60*$.v().gM(),80*$.v().gM(),new A.j5(),new A.jZ("https://studentcoaching.tech/"),150*$.v().gM(),30*$.v().gM(),null,null)}}
 A.NF.prototype={
 aw(){this.aJ()
 A.aQQ()},
@@ -86882,14 +86882,14 @@ this.cg()
 this.f2()}}
 A.VC.prototype={}
 A.kI.prototype={
-ab(){return new A.Ge(new A.jZ("http://13.60.244.86/"),null,null)}}
+ab(){return new A.Ge(new A.jZ("https://studentcoaching.tech/"),null,null)}}
 A.Ge.prototype={
 aw(){var s,r=this
 r.aJ()
 s=r.a.c
 if(s==null)s=r.x=$.iv().a
 else r.x=s
-s=new A.Lr(s,"http://13.60.244.86/")
+s=new A.Lr(s,"https://studentcoaching.tech/")
 r.e=s
 r.d=s.mk()
 $.U.c0$.push(r)
@@ -87144,13 +87144,13 @@ this.cg()
 this.f2()}}
 A.a_M.prototype={}
 A.l_.prototype={
-ab(){return new A.HJ(new A.jZ("http://13.60.244.86/"),null,null)}}
+ab(){return new A.HJ(new A.jZ("https://studentcoaching.tech/"),null,null)}}
 A.HJ.prototype={
 ghw(){var s=this.d
-return s===$?this.d=new A.E3("http://13.60.244.86/"):s},
+return s===$?this.d=new A.E3("https://studentcoaching.tech/"):s},
 aw(){var s=this
 s.aJ()
-s.d=new A.E3("http://13.60.244.86/")
+s.d=new A.E3("https://studentcoaching.tech/")
 s.f=s.ghw().q5()
 $.U.c0$.push(s)
 s.w=null},
