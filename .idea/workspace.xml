@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="updated domain">
+    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="updated HomePage and throne ımages">
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738184015748</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated HomePage and throne ımages">
+      <option name="closed" value="true" />
+      <created>1738668610998</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738668610998</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated domain" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated domain" />
+    <MESSAGE value="updated HomePage and throne ımages" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated HomePage and throne ımages" />
   </component>
 </project>

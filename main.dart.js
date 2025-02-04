@@ -87578,12 +87578,12 @@ A.kB.prototype={
 ac(){return new A.V8(20*$.u().gM(),20*$.u().gM(),B.fA,B.fH)}}
 A.V8.prototype={
 H(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d=null,c=$.m_.i(0,e.a.c.toLowerCase()),b=e.a.c
-if(b.toLowerCase()==="matematik")s="assets/thrones/islamic_throne_5_clipped.png"
-else if(b.toLowerCase()==="t\xfcrk\xe7e")s="assets/thrones/islamic_throne_6_clipped.png"
-else if(b.toLowerCase()==="fizik")s="assets/thrones/islamic_throne_9.png"
-else if(b.toLowerCase()==="biyoloji")s="assets/thrones/islamic_throne_10_clipped.png"
-else if(b.toLowerCase()==="kimya")s="assets/thrones/islamic_throne_8_clipped.png"
-else s=b.toLowerCase()==="sosyal"?"assets/thrones/islamic_throne_1_clipped.png":"assets/thrones/islamic_throne_7.png"
+if(b.toLowerCase()==="matematik")s="assets/images/thrones/islamic_throne_5_clipped.png"
+else if(b.toLowerCase()==="t\xfcrk\xe7e")s="assets/images/thrones/islamic_throne_6_clipped.png"
+else if(b.toLowerCase()==="fizik")s="assets/images/thrones/islamic_throne_9.png"
+else if(b.toLowerCase()==="biyoloji")s="assets/images/thrones/islamic_throne_10_clipped.png"
+else if(b.toLowerCase()==="kimya")s="assets/images/thrones/islamic_throne_8_clipped.png"
+else s=b.toLowerCase()==="sosyal"?"assets/images/thrones/islamic_throne_1_clipped.png":"assets/images/thrones/islamic_throne_7.png"
 b=A.aD7(d,B.el,new A.hO(s,d,d))
 r=t.F
 q=A.b([new A.cX(0,B.ba,A.O(102,0,0,0),B.eW,10)],r)
