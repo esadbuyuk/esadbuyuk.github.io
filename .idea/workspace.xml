@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="final touches before first presentation">
+    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="Lightning effect added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738691002157</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Lightning effect added">
+      <option name="closed" value="true" />
+      <created>1738695128612</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738695128612</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +155,7 @@
     <MESSAGE value="updated HomePage and throne ımages" />
     <MESSAGE value="again updated HomePage and throne ımages" />
     <MESSAGE value="final touches before first presentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="final touches before first presentation" />
+    <MESSAGE value="Lightning effect added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lightning effect added" />
   </component>
 </project>
