@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="light version and LastTest Page">
+    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="dark orange version and ChartsPage for laptop">
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739039722720</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dark orange version and ChartsPage for laptop">
+      <option name="closed" value="true" />
+      <created>1739278597723</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739278597723</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +183,7 @@
     <MESSAGE value="Lightning effect added" />
     <MESSAGE value="chartsPage mobile version added." />
     <MESSAGE value="light version and LastTest Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="light version and LastTest Page" />
+    <MESSAGE value="dark orange version and ChartsPage for laptop" />
+    <option name="LAST_COMMIT_MESSAGE" value="dark orange version and ChartsPage for laptop" />
   </component>
 </project>
