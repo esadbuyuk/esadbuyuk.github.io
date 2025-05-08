@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="click errors fixed for mobile">
+    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="listPage fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739295130581</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="listPage fixed">
+      <option name="closed" value="true" />
+      <created>1739366781510</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739366781510</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +210,7 @@
     <MESSAGE value="dark orange version and ChartsPage for laptop" />
     <MESSAGE value="errors fixed for mobile" />
     <MESSAGE value="click errors fixed for mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="click errors fixed for mobile" />
+    <MESSAGE value="listPage fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="listPage fixed" />
   </component>
 </project>
