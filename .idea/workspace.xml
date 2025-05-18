@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="Trying sessions again">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="Set github settings and push again" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,12 +29,12 @@
     &quot;assignee&quot;: &quot;esadbuyuk&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/esadbuyuk/esadbuyuk.github.io.git",
-    "accountId": "23461c0e-8ba3-43d4-9e09-0438eb54fe01"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/esadbuyuk/esadbuyuk.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;23461c0e-8ba3-43d4-9e09-0438eb54fe01&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -200,7 +198,31 @@
       <option name="project" value="LOCAL" />
       <updated>1746699063097</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Trying sessions again">
+      <option name="closed" value="true" />
+      <created>1747471489375</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1747471489375</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Set github settings and push again">
+      <option name="closed" value="true" />
+      <created>1747471830545</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1747471830545</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Set github settings and push again">
+      <option name="closed" value="true" />
+      <created>1747472406754</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1747472406754</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +250,7 @@
     <MESSAGE value="listPage fixed" />
     <MESSAGE value="Trying sessions" />
     <MESSAGE value="Trying sessions again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying sessions again" />
+    <MESSAGE value="Set github settings and push again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set github settings and push again" />
   </component>
 </project>
