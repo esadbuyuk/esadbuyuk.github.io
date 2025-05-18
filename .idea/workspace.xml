@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="Set github settings and push again" />
+    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="trying to solve camera problem on web">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747472406754</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="trying to solve camera problem on web">
+      <option name="closed" value="true" />
+      <created>1747553268330</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1747553268331</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +261,7 @@
     <MESSAGE value="Trying sessions" />
     <MESSAGE value="Trying sessions again" />
     <MESSAGE value="Set github settings and push again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set github settings and push again" />
+    <MESSAGE value="trying to solve camera problem on web" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to solve camera problem on web" />
   </component>
 </project>
