@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="trying service connections for camera on web">
+    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="trying again service connections for camera on web">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -256,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747557890205</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="trying again service connections for camera on web">
+      <option name="closed" value="true" />
+      <created>1747643648048</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1747643648048</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,6 +297,7 @@
     <MESSAGE value="again trying to solve camera problem on web" />
     <MESSAGE value="improving camera on web" />
     <MESSAGE value="trying service connections for camera on web" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying service connections for camera on web" />
+    <MESSAGE value="trying again service connections for camera on web" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying again service connections for camera on web" />
   </component>
 </project>

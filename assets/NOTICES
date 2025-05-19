@@ -1777,7 +1777,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 async
 cli_util
 collection
-mime
 stream_channel
 typed_data
 
@@ -4636,8 +4635,6 @@ cross_file
 flutter_lints
 flutter_plugin_android_lifecycle
 go_router
-image_picker_for_web
-image_picker_platform_interface
 path_provider
 path_provider_android
 path_provider_foundation
