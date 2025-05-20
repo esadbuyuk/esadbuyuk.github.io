@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="again errors on service connections for camera on web are throwed to uı.">
+    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="resized image before sending to api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -288,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747689559197</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="resized image before sending to api">
+      <option name="closed" value="true" />
+      <created>1747726371606</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1747726371606</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,6 +333,7 @@
     <MESSAGE value="errors on service connections for camera on web are solved." />
     <MESSAGE value="errors on service connections for camera on web are throwed to uı." />
     <MESSAGE value="again errors on service connections for camera on web are throwed to uı." />
-    <option name="LAST_COMMIT_MESSAGE" value="again errors on service connections for camera on web are throwed to uı." />
+    <MESSAGE value="resized image before sending to api" />
+    <option name="LAST_COMMIT_MESSAGE" value="resized image before sending to api" />
   </component>
 </project>
