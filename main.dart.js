@@ -105574,74 +105574,74 @@ l(){var s=this.d
 s===$&&A.b()
 s.l()
 this.aM()},
-mX(){var s=0,r=A.N(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2
-var $async$mX=A.J(function(a3,a4){if(a3===1){o.push(a4)
+mX(){var s=0,r=A.N(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3
+var $async$mX=A.J(function(a4,a5){if(a4===1){o.push(a5)
 s=p}while(true)switch(s){case 0:n.U(new A.ayY(n))
 p=4
-a=n.e
-a===$&&A.b()
+a0=n.e
+a0===$&&A.b()
 s=7
-return A.R(a,$async$mX)
-case 7:a=n.d
-a===$&&A.b()
+return A.R(a0,$async$mX)
+case 7:a0=n.d
+a0===$&&A.b()
 s=8
-return A.R(a.nx(),$async$mX)
-case 8:m=a4
+return A.R(a0.nx(),$async$mX)
+case 8:m=a5
 s=9
 return A.R(m.Nv(),$async$mX)
-case 9:l=a4
+case 9:l=a5
 k=A.aN5(l)
 if(k==null){n.U(new A.ayZ(n))
 s=1
-break}A.aN1(k,1280,1280)
-j=A.aN7(k)
-i=A.cv("https://studentcoaching.tech/analyze.php",0,null)
-h=A.aL9("POST",i)
-h.y.push(A.aL8("formImage",j,"camera_image.jpg"))
+break}j=A.aN1(k,1280,1280)
+i=A.aN7(j)
+h=A.cv("https://studentcoaching.tech/analyze.php",0,null)
+g=A.aL9("POST",h)
+g.y.push(A.aL8("formImage",i,"camera_image.jpg"))
 n.U(new A.az_(n))
 s=10
-return A.R(J.aJP(h),$async$mX)
-case 10:g=a4
+return A.R(J.aJP(g),$async$mX)
+case 10:f=a5
 s=11
-return A.R(B.ag.Le(g.w),$async$mX)
-case 11:f=a4
-s=g.b===200?12:14
+return A.R(B.ag.Le(f.w),$async$mX)
+case 11:e=a5
+s=f.b===200?12:14
 break
 case 12:p=16
-e=B.b0.D4(0,f,null)
-if(e==null||J.ej(e)){a=A.cM("API'den bo\u015f veri geldi.  "+A.q(f))
-throw A.c(a)}d=A.aLe(e)
+d=B.b0.D4(0,e,null)
+if(d==null||J.ej(d)){a0=A.cM("API'den bo\u015f veri geldi.  "+A.q(e))
+throw A.c(a0)}c=A.aLe(d)
 s=n.c!=null?19:20
 break
 case 19:s=21
 return A.R(n.d.l(),$async$mX)
-case 21:n.U(new A.az0(n,d))
+case 21:n.U(new A.az0(n,c))
 case 20:p=4
 s=18
 break
 case 16:p=15
-a1=o.pop()
-c=A.ar(a1)
-A.fb("Veri i\u015fleme hatas\u0131: "+A.q(c))
-n.U(new A.az1(n,f,m))
+a2=o.pop()
+b=A.ar(a2)
+A.fb("Veri i\u015fleme hatas\u0131: "+A.q(b))
+n.U(new A.az1(n,e,m))
 s=18
 break
 case 15:s=4
 break
 case 18:s=13
 break
-case 14:a=A.q(f)
+case 14:a0=A.q(e)
 m.toString
-A.fb("Sunucu hatas\u0131: "+a+", Camera image mimeType: null")
-n.U(new A.az2(n,f))
+A.fb("Sunucu hatas\u0131: "+a0+", Camera image mimeType: null")
+n.U(new A.az2(n,e))
 case 13:p=2
 s=6
 break
 case 4:p=3
-a2=o.pop()
-b=A.ar(a2)
-A.fb("\u0130stek hatas\u0131: "+A.q(b))
-n.U(new A.az3(n,b))
+a3=o.pop()
+a=A.ar(a3)
+A.fb("\u0130stek hatas\u0131: "+A.q(a))
+n.U(new A.az3(n,a))
 s=6
 break
 case 3:s=2

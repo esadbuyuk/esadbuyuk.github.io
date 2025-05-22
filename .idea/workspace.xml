@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="again fixed throwing error issues for camera">
+    <list default="true" id="036e4b81-094f-4e0e-8a8f-47b89b4ea3f4" name="Changes" comment="CANCELED resizing for camera">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -320,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747743226885</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="CANCELED resizing for camera">
+      <option name="closed" value="true" />
+      <created>1747752318235</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1747752318235</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,7 +343,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated domain" />
     <MESSAGE value="updated HomePage and throne ımages" />
     <MESSAGE value="again updated HomePage and throne ımages" />
     <MESSAGE value="final touches before first presentation" />
@@ -360,6 +367,7 @@
     <MESSAGE value="resized image before sending to api" />
     <MESSAGE value="fixed throwing error issues for camera" />
     <MESSAGE value="again fixed throwing error issues for camera" />
-    <option name="LAST_COMMIT_MESSAGE" value="again fixed throwing error issues for camera" />
+    <MESSAGE value="CANCELED resizing for camera" />
+    <option name="LAST_COMMIT_MESSAGE" value="CANCELED resizing for camera" />
   </component>
 </project>
