@@ -92110,7 +92110,7 @@ A.a27.prototype={}
 A.x5.prototype={
 O(a){var s=null,r=this.c
 r=r==null?s:"GoException: "+r.a
-return A.fl(!0,A.aM(A.ag(A.a([B.a6D,B.dy,A.I(r==null?"page not found":r,s,s,s,s,s,s),B.dy,new A.Iz(new A.adx(a),B.a6u,s)],t.p),B.k,B.W,B.j),s,s),B.a4,!0)}}
+return A.fl(!0,A.aM(A.ag(A.a([B.a6E,B.dy,A.I(r==null?"page not found":r,s,s,s,s,s,s),B.dy,new A.Iz(new A.adx(a),B.a6v,s)],t.p),B.k,B.W,B.j),s,s),B.a4,!0)}}
 A.adx.prototype={
 $0(){return A.fY(this.a).ho(0,"/",null)},
 $S:0}
@@ -92160,7 +92160,7 @@ A.xX.prototype={
 O(a){var s=null,r=A.aOx(s,s,s,s,s,s,s,B.a6q,s),q=this.c
 q=q==null?s:"GoException: "+q.a
 if(q==null)q="page not found"
-return A.fJ(r,s,A.aM(A.ag(A.a([new A.GN(q,s),A.VP(B.a6B,new A.alo(a),s)],t.p),B.k,B.W,B.j),s,s),s)}}
+return A.fJ(r,s,A.aM(A.ag(A.a([new A.GN(q,s),A.VP(B.a6C,new A.alo(a),s)],t.p),B.k,B.W,B.j),s,s),s)}}
 A.alo.prototype={
 $0(){return A.fY(this.a).ho(0,"/",null)},
 $S:0}
@@ -105666,16 +105666,16 @@ aaP(){var s,r=this,q=null,p=$.e().gp(),o=r.r!=null?A.I("\u0130\u015faretlenen Ce
 p=A.a([A.u(o,40*p,q),A.u(q,10*$.e().gp(),q)],t.p)
 o=r.w
 if(o!=null)p.push(new A.W(B.dj,A.I(o,q,q,q,B.D8,B.aJ,q),q))
-if(r.w==null)p.push(B.Yw)
+if(r.w==null)p.push(B.Yx)
 p.push(B.dy)
 if(r.r!=null){o=$.e().gK()
 s=r.r
 s.toString
 o=A.bo(A.aM(A.u(new A.y3(s,q),q,200*o),q,q),1)}else o=B.dz
 p.push(o)
-if(r.r==null)p.push(B.Yx)
+if(r.r==null)p.push(B.Yw)
 p.push(B.a17)
-p.push(A.PY(!1,B.a6C,q,q,q,q,q,q,new A.ayV(r),q,q))
+p.push(A.PY(!1,B.a6D,q,q,q,q,q,q,new A.ayV(r),q,q))
 return new A.W(B.dP,A.d9(A.ag(p,B.ah,B.l,B.j),q,q,q,B.a0),q)}}
 A.ayW.prototype={
 $1(a){return a.b===B.fq},
@@ -106712,7 +106712,7 @@ case 5:A.fY(a).ho(0,"/home",null)
 case 3:return A.L(null,r)}})
 return A.M($async$AH,r)},
 O(a){var s=null,r=64*$.e().gp()>60?64*$.e().gp():60,q=$.e()
-return A.u(A.PY(!1,B.a6r,s,s,s,s,s,s,new A.aiF(this,a),s,A.rF(s,s,B.F,s,s,s,s,s,s,s,s,s,B.a4,s,new A.d8(A.fw(30*Math.min(q.gK(),q.gp())),B.y),s,s,s,s)),r,17976931348623157e292)}}
+return A.u(A.PY(!1,B.a6s,s,s,s,s,s,s,new A.aiF(this,a),s,A.rF(s,s,B.F,s,s,s,s,s,s,s,s,s,B.a4,s,new A.d8(A.fw(30*Math.min(q.gK(),q.gp())),B.y),s,s,s,s)),r,17976931348623157e292)}}
 A.aiF.prototype={
 $0(){var s=0,r=A.N(t.H),q,p=this,o,n,m
 var $async$$0=A.J(function(a,b){if(a===1)return A.K(b,r)
@@ -107257,7 +107257,7 @@ case 5:A.fY(a).ho(0,"/home",null)
 case 3:return A.L(null,r)}})
 return A.M($async$BJ,r)},
 O(a){var s=null,r=64*$.e().gp()>60?64*$.e().gp():60,q=$.e()
-return A.u(A.PY(!1,B.a6y,s,s,s,s,s,s,new A.asA(this,a),s,A.rF(s,s,B.F,s,s,s,s,s,s,s,s,s,B.a4,s,new A.d8(A.fw(30*Math.min(q.gK(),q.gp())),B.y),s,s,s,s)),r,17976931348623157e292)}}
+return A.u(A.PY(!1,B.a6z,s,s,s,s,s,s,new A.asA(this,a),s,A.rF(s,s,B.F,s,s,s,s,s,s,s,s,s,B.a4,s,new A.d8(A.fw(30*Math.min(q.gK(),q.gp())),B.y),s,s,s,s)),r,17976931348623157e292)}}
 A.asA.prototype={
 $0(){var s=0,r=A.N(t.H),q,p=this,o,n,m
 var $async$$0=A.J(function(a,b){if(a===1)return A.K(b,r)
@@ -108652,7 +108652,7 @@ r=A.ab(o,o,B.h,o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o)
 q=t.fo
 r=A.b0B(s,B.A,A.S(new A.aD(A.a(["TL"],t.s),new A.aoo(),q),!0,q.i("av.E")),new A.aop(),r,"TL",t.N)
 q=A.rF(o,o,B.m4,o,o,o,o,o,o,o,o,new A.G(1/0,48),o,o,o,o,o,o,o)
-return A.aPd(o,B.n,A.u(A.b4(A.a([A.bo(new A.W(B.ph,A.ag(A.a([m,B.mQ,l,B.a18,k,B.jw,i,B.jw,j,B.dy,r,B.mQ,B.a6t,B.dy,A.PY(!1,A.I("\xd6deme i\u015flemine devam edin",o,o,o,o,o,o),o,o,o,o,o,o,new A.aoq(),o,q)],h),B.ah,B.l,B.j),o),1),A.t(o,A.ag(A.a([new A.dm(B.E_,o,o,A.ie(B.M1,B.h,o,o,o),o),B.mQ,A.ie(B.LZ,B.h_,o,o,60),B.dy,A.I("Premium ile zaman kazan.",o,o,o,A.ab(o,o,B.h,o,o,o,o,o,o,o,o,o,o,o,B.B,o,o,!0,o,o,o,o,o,o,o,o),o,o),B.dy,p.pu("Deneme analiz ve s\u0131ralamalar\u0131"),p.pu("Ders analiz ve s\u0131ralamalar\u0131"),p.pu("Konu analiz ve s\u0131ralamalar\u0131"),p.pu("Soru tiplerine g\xf6re ba\u015far\u0131 analizleri"),p.pu("En \xe7ok net kazand\u0131\u011f\u0131n konular"),p.pu("En zay\u0131f oldu\u011fun konular"),p.pu("Farkl\u0131 renk paletleri"),B.jw,A.xE(!1,o,!0,A.I("Learn more",o,o,o,A.ab(o,o,B.ab,o,B.jz,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o),o,!0,o,o,o,o,o,o,o,o,o,new A.aor(),o,o,o,o)],h),B.ah,B.l,B.j),B.e,B.A,o,o,o,o,o,B.ph,o,o,250)],h),B.k,B.l,B.j),600*n,700),o,o,o,o,o,o)},
+return A.aPd(o,B.n,A.u(A.b4(A.a([A.bo(new A.W(B.ph,A.ag(A.a([m,B.mQ,l,B.a18,k,B.jw,i,B.jw,j,B.dy,r,B.mQ,B.a6u,B.dy,A.PY(!1,A.I("\xd6deme i\u015flemine devam edin",o,o,o,o,o,o),o,o,o,o,o,o,new A.aoq(),o,q)],h),B.ah,B.l,B.j),o),1),A.t(o,A.ag(A.a([new A.dm(B.E_,o,o,A.ie(B.M1,B.h,o,o,o),o),B.mQ,A.ie(B.LZ,B.h_,o,o,60),B.dy,A.I("Premium ile zaman kazan.",o,o,o,A.ab(o,o,B.h,o,o,o,o,o,o,o,o,o,o,o,B.B,o,o,!0,o,o,o,o,o,o,o,o),o,o),B.dy,p.pu("Deneme analiz ve s\u0131ralamalar\u0131"),p.pu("Ders analiz ve s\u0131ralamalar\u0131"),p.pu("Konu analiz ve s\u0131ralamalar\u0131"),p.pu("Soru tiplerine g\xf6re ba\u015far\u0131 analizleri"),p.pu("En \xe7ok net kazand\u0131\u011f\u0131n konular"),p.pu("En zay\u0131f oldu\u011fun konular"),p.pu("Farkl\u0131 renk paletleri"),B.jw,A.xE(!1,o,!0,A.I("Learn more",o,o,o,A.ab(o,o,B.ab,o,B.jz,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o),o,!0,o,o,o,o,o,o,o,o,o,new A.aor(),o,o,o,o)],h),B.ah,B.l,B.j),B.e,B.A,o,o,o,o,o,B.ph,o,o,250)],h),B.k,B.l,B.j),600*n,700),o,o,o,o,o,o)},
 pu(a){var s=null
 return new A.W(B.l6,A.b4(A.a([A.ie(B.M0,B.X8,s,s,18),B.mP,A.bo(A.I(a,s,s,s,A.ab(s,s,B.h,s,s,s,s,s,s,s,s,14,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),1)],t.p),B.k,B.l,B.j),s)}}
 A.aon.prototype={
@@ -113392,15 +113392,15 @@ B.Hr=new A.wh(null,null,null,null,null,null,null,null)
 B.aF=new A.hj(B.u,null,null,B.Hr,null)
 B.dz=new A.dS(null,null,null,null)
 B.ks=new A.hj(B.u,null,null,B.dz,null)
-B.a6w=new A.dG("No player data found",null,null,null,null,null,null,null,null)
-B.Hf=new A.hj(B.u,null,null,B.a6w,null)
+B.a6x=new A.dG("No player data found",null,null,null,null,null,null,null,null)
+B.Hf=new A.hj(B.u,null,null,B.a6x,null)
 B.a5S=new A.w(!0,B.dq,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a6A=new A.dG("Right panel content coming soon...",null,B.a5S,null,null,null,null,null,null)
-B.Hg=new A.hj(B.u,null,null,B.a6A,null)
-B.a6z=new A.dG("No data",null,null,null,null,null,null,null,null)
-B.df=new A.hj(B.u,null,null,B.a6z,null)
-B.a6v=new A.dG("Error",null,null,null,null,null,null,null,null)
-B.hK=new A.hj(B.u,null,null,B.a6v,null)
+B.a6B=new A.dG("Right panel content coming soon...",null,B.a5S,null,null,null,null,null,null)
+B.Hg=new A.hj(B.u,null,null,B.a6B,null)
+B.a6A=new A.dG("No data",null,null,null,null,null,null,null,null)
+B.df=new A.hj(B.u,null,null,B.a6A,null)
+B.a6w=new A.dG("Error",null,null,null,null,null,null,null,null)
+B.hK=new A.hj(B.u,null,null,B.a6w,null)
 B.a6F=new A.dG("Player not found.",null,null,null,null,null,null,null,null)
 B.bS=new A.hj(B.u,null,null,B.a6F,null)
 B.Hi=new A.ls("matematik","Fatih Alemdar",null)
@@ -115836,10 +115836,10 @@ B.Mh=new A.cF(984391,"MaterialIcons",null,!1)
 B.Mq=new A.ew(B.Mh,35,B.F,null,null)
 B.Yv=new A.W(B.KT,B.Mq,null)
 B.D7=new A.w(!0,B.dp,null,null,null,null,null,B.B,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.a6r=new A.dG("selectedAnswers yok- Kalite max, \xe7\xf6z\xfcn\xfcrl\xfck:1280",null,B.D7,B.aJ,null,null,null,null,null)
+B.Yw=new A.W(B.dj,B.a6r,null)
 B.De=new A.dG("Error yok",null,B.D7,B.aJ,null,null,null,null,null)
-B.Yw=new A.W(B.dj,B.De,null)
-B.a6E=new A.dG("selectedAnswers yok",null,B.D7,B.aJ,null,null,null,null,null)
-B.Yx=new A.W(B.dj,B.a6E,null)
+B.Yx=new A.W(B.dj,B.De,null)
 B.Yy=new A.W(B.pi,B.De,null)
 B.cI=new A.SK(0,"fill")
 B.aD=new A.SK(1,"stroke")
@@ -115929,7 +115929,7 @@ B.ZY=new A.yt(3,"unstable")
 B.d4=new A.G_(0,"identical")
 B.ZZ=new A.G_(2,"paint")
 B.bM=new A.G_(3,"layout")
-B.a__=new A.apX(1,"medium")
+B.a__=new A.apX(5,"max")
 B.eY=new A.aR(28,28)
 B.EH=new A.cL(B.eY,B.eY,B.I,B.I)
 B.a_0=new A.d8(B.EH,B.y)
@@ -115953,8 +115953,8 @@ B.M3=new A.cF(57900,"MaterialIcons",null,!1)
 B.Mm=new A.ew(B.M3,null,B.F,null,null)
 B.mP=new A.dS(8,null,null,null)
 B.a4X=new A.w(!0,B.F,null,null,null,null,null,B.B,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a6s=new A.dG("#1 \xd6\u011frencilerin favorisi",null,B.a4X,null,null,null,null,null,null)
-B.Ru=A.a(s([B.Mm,B.mP,B.a6s]),t.p)
+B.a6t=new A.dG("#1 \xd6\u011frencilerin favorisi",null,B.a4X,null,null,null,null,null,null)
+B.Ru=A.a(s([B.Mm,B.mP,B.a6t]),t.p)
 B.a_1=new A.Gr(B.a_,B.l,B.aG,B.k,null,B.cM,null,0,B.Ru,null)
 B.a_2=new A.Gs(1333)
 B.mq=new A.Gs(2222)
@@ -116160,8 +116160,8 @@ B.a0N=new A.aA(B.e2,!0,!0,!1,!1,B.bI)
 B.a0O=new A.aA(B.fO,!1,!1,!1,!0,B.x)
 B.a0P=new A.aA(B.dZ,!0,!1,!1,!1,B.bJ)
 B.a5Z=new A.w(!0,null,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a6x=new A.dG("Ki\u015fisel Verilerin Korunmas\u0131 Kanunu (KVKK) Ayd\u0131nlatma Metni\n\nPITBALL olarak, ki\u015fisel verilerinizin gizlili\u011fini \xf6nemsiyoruz. 6698 Say\u0131l\u0131 Ki\u015fisel Verilerin Korunmas\u0131 Kanunu (\u201cKVKK\u201d) kapsam\u0131nda, ki\u015fisel verilerinizi a\u015fa\u011f\u0131daki \u015fekilde i\u015fliyoruz.\n\n1. Toplanan Ki\u015fisel Veriler\n\nHizmetlerimiz kapsam\u0131nda \u015fu ki\u015fisel veriler toplanabilir:\n\nAd ve Soyad\n\nTelefon numaras\u0131\n\nE-posta adresi\n\n\u015eifreler\n\n\xd6zel Nitelikli Veriler:\nSizin a\xe7\u0131k r\u0131zan\u0131zla a\u015fa\u011f\u0131daki \xf6zel nitelikli verileri i\u015fleyebiliriz:\n\n\xd6\u011frenci verileri\n\nBiyometrik veriler\n\nUygulama Verileri:\nUygulaman\u0131n do\u011fru \xe7al\u0131\u015fabilmesi i\xe7in a\u015fa\u011f\u0131daki cihaz eri\u015fimleri talep edilebilir:\n\nKamera\n\nDepolama alan\u0131\n\n\u0130nternet\nBu eri\u015fimleri cihaz ayarlar\u0131ndan y\xf6netebilirsiniz.\n\n2. Verilerin \u0130\u015flenme Ama\xe7lar\u0131\n\nKi\u015fisel verileriniz, a\u015fa\u011f\u0131daki ama\xe7lar do\u011frultusunda i\u015flenir:\n\nHizmetlerimizi sa\u011flamak ve geli\u015ftirmek\n\nUygulama g\xfcvenli\u011fini sa\u011flamak\n\nSorun giderme ve analitik s\xfcre\xe7leri y\xfcr\xfctmek\n\n3. Verilerin Korunmas\u0131\n\nKi\u015fisel verileriniz, yetkisiz eri\u015fime veya k\xf6t\xfcye kullan\u0131ma kar\u015f\u0131 uygun teknik ve idari tedbirlerle korunmaktad\u0131r.\n\n4. Haklar\u0131n\u0131z\n\nKVKK kapsam\u0131nda, ki\u015fisel verilerinizin silinmesini, d\xfczeltilmesini veya g\xfcncellenmesini talep edebilirsiniz. Talepleriniz i\xe7in bizimle mahmudesadbuyuk@gmail.com \xfczerinden ileti\u015fime ge\xe7ebilirsiniz.",null,B.a5Z,null,null,null,null,null,null)
-B.Ph=A.a(s([B.a6x]),t.p)
+B.a6y=new A.dG("Ki\u015fisel Verilerin Korunmas\u0131 Kanunu (KVKK) Ayd\u0131nlatma Metni\n\nPITBALL olarak, ki\u015fisel verilerinizin gizlili\u011fini \xf6nemsiyoruz. 6698 Say\u0131l\u0131 Ki\u015fisel Verilerin Korunmas\u0131 Kanunu (\u201cKVKK\u201d) kapsam\u0131nda, ki\u015fisel verilerinizi a\u015fa\u011f\u0131daki \u015fekilde i\u015fliyoruz.\n\n1. Toplanan Ki\u015fisel Veriler\n\nHizmetlerimiz kapsam\u0131nda \u015fu ki\u015fisel veriler toplanabilir:\n\nAd ve Soyad\n\nTelefon numaras\u0131\n\nE-posta adresi\n\n\u015eifreler\n\n\xd6zel Nitelikli Veriler:\nSizin a\xe7\u0131k r\u0131zan\u0131zla a\u015fa\u011f\u0131daki \xf6zel nitelikli verileri i\u015fleyebiliriz:\n\n\xd6\u011frenci verileri\n\nBiyometrik veriler\n\nUygulama Verileri:\nUygulaman\u0131n do\u011fru \xe7al\u0131\u015fabilmesi i\xe7in a\u015fa\u011f\u0131daki cihaz eri\u015fimleri talep edilebilir:\n\nKamera\n\nDepolama alan\u0131\n\n\u0130nternet\nBu eri\u015fimleri cihaz ayarlar\u0131ndan y\xf6netebilirsiniz.\n\n2. Verilerin \u0130\u015flenme Ama\xe7lar\u0131\n\nKi\u015fisel verileriniz, a\u015fa\u011f\u0131daki ama\xe7lar do\u011frultusunda i\u015flenir:\n\nHizmetlerimizi sa\u011flamak ve geli\u015ftirmek\n\nUygulama g\xfcvenli\u011fini sa\u011flamak\n\nSorun giderme ve analitik s\xfcre\xe7leri y\xfcr\xfctmek\n\n3. Verilerin Korunmas\u0131\n\nKi\u015fisel verileriniz, yetkisiz eri\u015fime veya k\xf6t\xfcye kullan\u0131ma kar\u015f\u0131 uygun teknik ve idari tedbirlerle korunmaktad\u0131r.\n\n4. Haklar\u0131n\u0131z\n\nKVKK kapsam\u0131nda, ki\u015fisel verilerinizin silinmesini, d\xfczeltilmesini veya g\xfcncellenmesini talep edebilirsiniz. Talepleriniz i\xe7in bizimle mahmudesadbuyuk@gmail.com \xfczerinden ileti\u015fime ge\xe7ebilirsiniz.",null,B.a5Z,null,null,null,null,null,null)
+B.Ph=A.a(s([B.a6y]),t.p)
 B.JB=new A.Cw(B.a0,B.l,B.j,B.ah,null,B.cM,null,0,B.Ph,null)
 B.Cx=new A.H1(B.a0,null,null,null,B.JB,null)
 B.a0Q=new A.G(1e5,1e5)
@@ -116575,17 +116575,17 @@ B.a6p=new A.er(B.a48,B.a3a,B.a49,B.a4J,B.a2O,B.a2V,B.a3w,B.a4w,B.a3K,B.a5f,B.a2i
 B.Db=new A.dG("Kamera ile Okut",null,null,null,null,null,null,null,null)
 B.a6q=new A.dG("Page Not Found",null,null,null,null,null,null,null,null)
 B.Da=new A.w(!0,B.a1,null,"MyTonicFont",null,null,45,B.B,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a6r=new A.dG("Log In",null,B.Da,null,null,null,null,null,null)
+B.a6s=new A.dG("Log In",null,B.Da,null,null,null,null,null,null)
 B.Dc=new A.dG("Okudum, Anlad\u0131m",null,null,null,null,null,null,null,null)
 B.a2X=new A.w(!0,B.h,null,null,null,null,null,B.B,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a6t=new A.dG("Tek seferlik 199,99 TL \xfccretlendirileceksiniz ve bir sene boyunca premiuma sahip olacaks\u0131n\u0131z. ",null,B.a2X,null,null,null,null,null,null)
+B.a6u=new A.dG("Tek seferlik 199,99 TL \xfccretlendirileceksiniz ve bir sene boyunca premiuma sahip olacaks\u0131n\u0131z. ",null,B.a2X,null,null,null,null,null,null)
 B.a3k=new A.w(!0,B.h,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a6u=new A.dG("Go to home page",null,B.a3k,null,null,null,null,null,null)
+B.a6v=new A.dG("Go to home page",null,B.a3k,null,null,null,null,null,null)
 B.Dd=new A.dG("KVKK Metni",null,null,null,null,null,null,null,null)
-B.a6y=new A.dG("Sign Up",null,B.Da,null,null,null,null,null,null)
-B.a6B=new A.dG("Home",null,null,null,null,null,null,null,null)
-B.a6C=new A.dG("Tekrar Dene",null,null,null,null,null,null,null,null)
-B.a6D=new A.dG("Page Not Found",null,B.jC,null,null,null,null,null,null)
+B.a6z=new A.dG("Sign Up",null,B.Da,null,null,null,null,null,null)
+B.a6C=new A.dG("Home",null,null,null,null,null,null,null,null)
+B.a6D=new A.dG("Tekrar Dene",null,null,null,null,null,null,null,null)
+B.a6E=new A.dG("Page Not Found",null,B.jC,null,null,null,null,null,null)
 B.Df=new A.dG("Galeriden Foto\u011fraf Se\xe7",null,null,null,null,null,null,null,null)
 B.aaB=new A.auw(0,"system")
 B.Y2=new A.n(0.056,0.024)
