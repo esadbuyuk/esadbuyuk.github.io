@@ -53962,7 +53962,7 @@ i=m!=null?n.ayJ(j):null
 h=t.N
 g=t.z
 s=7
-return A.C(B.hT.w8("create",A.ad(["cameraName",a.a,"resolutionPreset",i,"fps",b.b,"videoBitrate",b.c,"audioBitrate",b.d,"enableAudio",!0],h,g),h,g),$async$rS)
+return A.C(B.hT.w8("create",A.ad(["cameraName",a.a,"resolutionPreset",i,"fps",b.b,"videoBitrate",b.c,"audioBitrate",b.d,"enableAudio",!1],h,g),h,g),$async$rS)
 case 7:l=d
 g=l
 g.toString
@@ -54151,9 +54151,9 @@ if(b instanceof A.ZJ)s=this.a===b.a
 else s=!1
 return s},
 gv(a){var s=this
-return A.Z(s.a,s.b,s.c,s.d,!0,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.Z(s.a,s.b,s.c,s.d,!1,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 j(a){var s=this
-return"MediaSettings{resolutionPreset: "+s.a.j(0)+", fps: "+A.k(s.b)+", videoBitrate: "+A.k(s.c)+", audioBitrate: "+A.k(s.d)+", enableAudio: true}"}}
+return"MediaSettings{resolutionPreset: "+s.a.j(0)+", fps: "+A.k(s.b)+", videoBitrate: "+A.k(s.c)+", audioBitrate: "+A.k(s.d)+", enableAudio: false}"}}
 A.aC4.prototype={
 L(){return"ResolutionPreset."+this.b}}
 A.Vi.prototype={
@@ -54468,7 +54468,7 @@ i=p.a
 g=b.a
 l=i.aK2(g)
 g=m!=null?new A.Xr(m):null
-g=A.bkB(new A.Go(!0),new A.DW(g,new A.NO(B.c.F(l.a)),new A.NO(B.c.F(l.b)),n.a))
+g=A.bkB(new A.Go(!1),new A.DW(g,new A.NO(B.c.F(l.a)),new A.NO(B.c.F(l.b)),n.a))
 k=A.bkz(i,g,new A.Qs(b.d,b.c),o)
 p.b.m(0,o,k)
 q=o
@@ -118630,7 +118630,7 @@ s=7
 return A.C(A.b5W(),$async$mX)
 case 7:m=b
 l=J.bjH(m,new A.aNm(),new A.aNn(m))
-k=new A.GD(new A.ZJ(B.a9W,null,null,null,!0),new A.zV(!1,!1,!1,!1,!1,!1,null,null,null,B.S2,B.mP,B.mX,!1,!1,B.dc,null,null,l),$.aK())
+k=new A.GD(new A.ZJ(B.a9W,null,null,null,!1),new A.zV(!1,!1,!1,!1,!1,!1,null,null,null,B.S2,B.mP,B.mX,!1,!1,B.dc,null,null,l),$.aK())
 i=n.e=k
 i=i.mY(i.a.CW)
 n.f=i
@@ -118864,7 +118864,7 @@ r.push(new A.a2(B.R_,A.T(p,n,n,n,n,A.aM(q?B.a0:$.a6.n(),16),B.ac,n),n))
 if(!o.x){q=$.bW?$.b1.n():$.b_.n()
 q=A.iV($.aN.n(),"Galeriden Y\xfckle",q,!1,new A.aNi(o),B.j)
 p=$.bW?$.b1.n():$.b_.n()
-s=A.b([B.fK,q,B.fK,A.iV($.aN.n(),"Man\xfcel \u0130\u015faretle",p,!1,o.ga_K(),B.j),B.fK],s)
+s=A.b([B.fK,q,B.fK,A.iV($.aN.n(),"Manuel \u0130\u015faretle",p,!1,o.ga_K(),B.j),B.fK],s)
 if(o.w!=null){q=$.bW?$.b1.n():$.b_.n()
 s.push(A.iV($.aN.n(),"Kameray\u0131 Yeniden Ba\u015flat",q,!1,new A.aNj(o),B.j))}B.d.Z(r,s)}r.push(B.dh)
 return A.dd(new A.u(n,m,A.ax(A.ar(r,B.l,B.Q,B.k,B.p),n,n),n),n,n,n,n,B.R)}}
