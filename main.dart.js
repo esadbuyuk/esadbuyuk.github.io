@@ -83018,8 +83018,7 @@ o=new A.eG(new A.aXb(l,n),m)
 l.b=o
 l.b=A.kb(o,m,m,B.bn,!0,s.db,m,m,B.ae)
 l.c=null
-r=s.cx
-if(r!=null)l.c=new A.a0W(r,s.dx.ar(1),l.b,m)
+l.c=new A.a0W(s.cx,s.dx.ar(1),l.b,m)
 s=n.a.p4
 r=A.bnT()
 q=A.nr($.bdJ(),t.u,t.od)
@@ -105262,7 +105261,7 @@ s=$.ae5()
 r=B.pe.ayC(A.cH([B.bR,B.aG,B.bd,B.bH],t.E))
 q=$.b6.m()
 p=A.aGg(o,A.ei(o,o,$.cv.m(),o,o,o,o,o,o,o,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o,o,o,o,o,o,o,o,o,o,o)
-return new A.p_(o,o,o,s,o,A.xq(A.b4b($.b6.m(),o,o,A.bkc()),o,o,q,p,o),!1,r,o)},
+return new A.p_(o,o,o,s,"VOOPT\u0130K | S\xfcper H\u0131zl\u0131 Deneme Takip Uygulamas\u0131",A.xq(A.b4b($.b6.m(),o,o,A.bkc()),o,o,q,p,o),!1,r,o)},
 $S:670}
 A.aQn.prototype={
 $1(a){return A.b6E(new A.aQm(),null,t.z)},
