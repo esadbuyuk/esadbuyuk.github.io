@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Optik WASM Test (Full Module)</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .left-panel {
+            flex: 1;
+            min-width: 400px;
+        }
+
+        .right-panel {
+            flex: 1;
+        }
+
+        #log {
+            background: #333;
+            color: #0f0;
+            padding: 10px;
+            height: 150px;
+            overflow-y: scroll;
+            font-family: monospace;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 12px 24px;
+            cursor: pointer;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: background 0.2s;
+        }
+
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        button:hover:not(:disabled) {
+            background: #0056b3;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 4px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 8px 12px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #333;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        .status-ok {
+            color: green;
+            font-weight: bold;
+        }
+
+        .status-error {
+            color: red;
+            font-weight: bold;
+        }
+
+        .badge {
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+
+        .risk-yes {
+            background: #ffebee;
+            color: #c62828;
+        }
+
+        .risk-no {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Optik WASM Test (Auto-Verification)</h1>
+    <div class="container">
+        <div class="left-panel">
+            <div class="controls">
+                <input type="file" id="fileInput" accept="image/*">
+                <br><br>
+                <img id="preview" style="max-width: 100%; display: none;">
+                <canvas id="canvas" style="max-width: 100%; border: 1px solid #ddd;"></canvas>
+            </div>
+            <br>
+            <button id="processBtn" disabled>Process Image via WASM</button>
+        </div>
+
+        <div class="right-panel">
+            <h3>Logs</h3>
+            <div id="log">Initializing WASM...</div>
+
+            <h3>Results</h3>
+            <div id="resultSummary">Waiting for processing...</div>
+            <br>
+            <table id="resultsTable">
+                <thead>
+                    <tr>
+                        <th>Lesson</th>
+                        <th>No</th>
+                        <th>Ans</th>
+                        <th>Fill %</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Results will go here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- WASM Module Loader -->
+    <script src="optik.js"></script>
+
+    <script>
+        const logDiv = document.getElementById('log');
+        const processBtn = document.getElementById('processBtn');
+        const fileInput = document.getElementById('fileInput');
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const resultsTable = document.getElementById('resultsTable').querySelector('tbody');
+        const resultSummary = document.getElementById('resultSummary');
+
+        let wasmModule = null;
+        let isImageLoaded = false;
+
+        function log(msg) {
+            logDiv.innerText += "[" + new Date().toLocaleTimeString() + "] " + msg + "\n";
+            logDiv.scrollTop = logDiv.scrollHeight;
+            console.log(msg);
+        }
+
+        // Initialize WASM
+        OptikReader().then(module => {
+            wasmModule = module;
+            log("✅ WASM Module Loaded!");
+
+            // Check version
+            try {
+                const version = JSON.parse(wasmModule.get_version());
+                log("📦 Version: " + version.version + " (OpenCV: " + version.opencv + ", Logic: " + version.logic + ")");
+
+                processBtn.disabled = !isImageLoaded;
+
+                // Auto-load test image
+                loadTestImage();
+
+            } catch (e) {
+                log("❌ Initialization error: " + e.message);
+            }
+        });
+
+        function loadTestImage() {
+            log("🔄 Loading default test image...");
+            const img = new Image();
+            img.crossOrigin = "Anonymous";
+            img.onload = () => {
+                canvas.width = img.width;
+                canvas.height = img.height;
+                ctx.drawImage(img, 0, 0);
+                log("🖼️ Test image loaded: " + img.width + "x" + img.height);
+                isImageLoaded = true;
+                if (wasmModule) {
+                    processBtn.disabled = false;
+                    setTimeout(() => processBtn.click(), 500); // Auto-click
+                }
+            };
+            img.onerror = () => {
+                log("⚠️ Could not load auto test image. Please upload manually.");
+            };
+            img.src = "test.jpg";
+        }
+
+        // Manual Load
+        fileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+            const url = URL.createObjectURL(file);
+            const img = new Image();
+            img.onload = () => {
+                canvas.width = img.width;
+                canvas.height = img.height;
+                ctx.drawImage(img, 0, 0);
+                log("🖼️ Manual image loaded: " + img.width + "x" + img.height);
+                isImageLoaded = true;
+                if (wasmModule) processBtn.disabled = false;
+                URL.revokeObjectURL(url);
+            };
+            img.src = url;
+        });
+
+        // Process with WASM
+        processBtn.addEventListener('click', () => {
+            if (!wasmModule) return;
+
+            try {
+                const width = canvas.width;
+                const height = canvas.height;
+
+                // Get pixel data (RGBA)
+                const imageData = ctx.getImageData(0, 0, width, height);
+                const dataBytes = imageData.data;
+
+                log("⚙️ Allocating memory (" + (dataBytes.length / 1024 / 1024).toFixed(2) + " MB)...");
+
+                const ptr = wasmModule._malloc(dataBytes.length);
+                if (!ptr) {
+                    log("❌ Memory allocation failed!");
+                    return;
+                }
+
+                if (wasmModule.writeArrayToMemory) {
+                    log("writeArrayToMemory found.");
+                    wasmModule.writeArrayToMemory(dataBytes, ptr);
+                } else if (wasmModule.HEAPU8) {
+                    log("HEAPU8 found.");
+                    wasmModule.HEAPU8.set(dataBytes, ptr);
+                } else {
+                    log("⚠️ HEAPU8 not found on module, trying memory.buffer...");
+                    // Last resort: create view on memory buffer
+                    const mem = wasmModule.memory || wasmModule.wasmMemory;
+                    if (mem && mem.buffer) {
+                        const view = new Uint8Array(mem.buffer);
+                        view.set(dataBytes, ptr);
+                    } else {
+                        throw new Error("Cannot access WASM memory!");
+                    }
+                }
+
+                log("🚀 Processing in WASM (Full Logic)...");
+                const startTime = performance.now();
+
+                const resultJson = wasmModule.process_image(ptr, width, height);
+
+                const endTime = performance.now();
+                const duration = (endTime - startTime).toFixed(2);
+                log("⏱️ Processing finished in " + duration + "ms");
+
+                wasmModule._free(ptr);
+
+                // Parse Results
+                try {
+                    const result = JSON.parse(resultJson);
+
+                    if (result.status === "ok") {
+                        const markerCount = result.markers_found;
+                        const answerCount = result.answers ? result.answers.length : 0;
+
+                        resultSummary.innerHTML = `
+                            <div style="background: #e8f5e9; padding: 10px; border-radius: 4px; border-left: 5px solid green;">
+                                <strong>✅ Success</strong><br>
+                                Markers: ${markerCount}<br>
+                                Answers: ${answerCount}<br>
+                                Time: ${duration}ms
+                            </div>
+                        `;
+                        log(`✅ Success! Found ${markerCount} markers, ${answerCount} answers.`);
+
+                        // Render Table
+                        resultsTable.innerHTML = "";
+                        if (result.answers) {
+                            result.answers.forEach(ans => {
+                                const row = document.createElement('tr');
+                                const riskClass = ans.riskli ? 'risk-yes' : 'risk-no';
+                                const riskText = ans.riskli ? '⚠️ ' + ans.neden : 'OK';
+
+                                row.innerHTML = `
+                                    <td>${ans.sutun}</td>
+                                    <td>${ans.soru_no}</td>
+                                    <td><strong>${ans.cevap}</strong></td>
+                                    <td>${ans.doluluk.toFixed(1)}%</td>
+                                    <td><span class="badge ${riskClass}">${riskText}</span></td>
+                                `;
+                                resultsTable.appendChild(row);
+                            });
+                        }
+                    } else {
+                        resultSummary.innerHTML = `<div style="color:red; font-weight:bold">❌ Error: ${result.message}</div>`;
+                        log("❌ WASM Error: " + result.message);
+                    }
+                } catch (e) {
+                    log("❌ JSON Parse Error: " + e.message);
+                    console.error(resultJson);
+                }
+
+            } catch (e) {
+                log("❌ Execution Error: " + e.message);
+            }
+        });
+    </script>
+</body>
+
+</html>
