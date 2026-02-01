@@ -107527,8 +107527,8 @@ f=A.fa(n)
 $.xT().zp("optik-video-view-"+f,new A.aIw(n),!0)
 A.ak("[WebCamera] View factory kaydedildi")
 d=g.document.createElement("canvas")
-d.width=1280
-d.height=960
+d.width=1920
+d.height=1080
 n.ay=d
 n.J(new A.aIx(n))
 A.ak("[WebCamera] isCameraReady = true")
@@ -107869,13 +107869,13 @@ e=f.getContext("2d",A.aE(A.af(["willReadFrequently",!0],t.N,t.y)))
 m=e==null?A.ef(e):e
 f=c.ax
 f.toString
-A.eB(m,"drawImage",[f,0,0,1280,960])
-l=m.getImageData(0,0,1280,960)
+A.eB(m,"drawImage",[f,0,0,1920,1080])
+l=m.getImageData(0,0,1920,1080)
 k=l.data
 j=new Uint8Array(A.ig(k))
 i=$.Ry()
 s=7
-return A.A(i.q4(j,1280,960),$async$$1)
+return A.A(i.q4(j,1920,1080),$async$$1)
 case 7:h=a1
 if(c.c==null){s=1
 break}c.J(new A.aIG(c,h))
