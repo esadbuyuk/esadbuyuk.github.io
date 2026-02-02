@@ -107816,7 +107816,7 @@ r=A.cM(8)
 q=o.r
 q.toString
 l.push(A.en(n,A.u(n,A.aV(A.b([B.R8,B.a4s,A.bB(A.K(q,n,n,n,n,A.aC(B.i,14),B.a9,n),1)],m),B.l,B.m,B.k,0),B.e,n,n,new A.b5(s,n,n,r,n,n,n,B.B),n,n,n,B.d2,n,n,n),n,n,20,20,100,n))}s=o.e
-if(s){s=A.K(o.f?"\u0130\u015fleniyor...":"Formu \xe7er\xe7eveye yerle\u015ftirin",n,n,n,n,B.nW,n,n)
+if(s){s=A.K(o.f?"\u0130\u015fleniyor...":"Formu \xe7er\xe7eveye yerle\u015ftirin2",n,n,n,n,B.nW,n,n)
 r=o.as
 if(r===1)q="LGS"
 else q=r===2?"TYT":"?"
@@ -107858,37 +107858,47 @@ $0(){return this.a.r="Kamera Hatas\u0131: "+A.l(this.b)},
 $S:0}
 A.aIH.prototype={
 $1(a){return this.a6L(a)},
-a6L(a){var s=0,r=A.z(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b
-var $async$$1=A.v(function(a0,a1){if(a0===1){o.push(a1)
-s=p}while(true)switch(s){case 0:c=n.a
-if(!c.e||c.f||c.ax==null){s=1
+a6L(a1){var s=0,r=A.z(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0
+var $async$$1=A.v(function(a2,a3){if(a2===1){o.push(a3)
+s=p}while(true)switch(s){case 0:a=n.a
+if(!a.e||a.f||a.ax==null){s=1
 break}p=4
-f=c.ay
-f.toString
-e=f.getContext("2d",A.aE(A.af(["willReadFrequently",!0],t.N,t.y)))
-m=e==null?A.ef(e):e
-f=c.ax
-f.toString
-A.eB(m,"drawImage",[f,0,0,1280,960])
-l=m.getImageData(0,0,1280,960)
-k=l.data
-j=new Uint8Array(A.ig(k))
-i=$.Ry()
+d=a.ax
+m=d.videoWidth
+l=d.videoHeight
+if(J.e(m,0)||J.e(l,0)){s=1
+break}d=a.ay
+d.toString
+d.width=m
+d=a.ay
+d.toString
+d.height=l
+d=a.ay
+d.toString
+c=d.getContext("2d",A.aE(A.af(["willReadFrequently",!0],t.N,t.y)))
+k=c==null?A.ef(c):c
+d=a.ax
+d.toString
+A.eB(k,"drawImage",[d,0,0,m,l])
+j=k.getImageData(0,0,m,l)
+i=j.data
+h=new Uint8Array(A.ig(i))
+g=$.Ry()
 s=7
-return A.A(i.q4(j,1280,960),$async$$1)
-case 7:h=a1
-if(c.c==null){s=1
-break}c.J(new A.aIG(c,h))
-if(h.a>=18){f=h.b
-f=f===1||f===2}else f=!1
-if(f)c.vR(h.b)
+return A.A(g.q4(h,m,l),$async$$1)
+case 7:f=a3
+if(a.c==null){s=1
+break}a.J(new A.aIG(a,f))
+if(f.a>=18){d=f.b
+d=d===1||d===2}else d=!1
+if(d)a.vR(f.b)
 p=2
 s=6
 break
 case 4:p=3
-b=o.pop()
-g=A.aj(b)
-A.ak("[CameraWidget] Detection error: "+A.l(g))
+a0=o.pop()
+e=A.aj(a0)
+A.ak("[CameraWidget] Detection error: "+A.l(e))
 s=6
 break
 case 3:s=2
