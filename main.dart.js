@@ -107842,7 +107842,7 @@ r=A.cM(8)
 q=o.r
 q.toString
 l.push(A.eo(n,A.u(n,A.aV(A.b([B.R8,B.a4s,A.bB(A.K(q,n,n,n,n,A.aC(B.i,14),B.a9,n),1)],m),B.l,B.m,B.k,0),B.e,n,n,new A.b5(s,n,n,r,n,n,n,B.B),n,n,n,B.d2,n,n,n),n,n,20,20,100,n))}s=o.e
-if(s){s=A.K(o.f?"\u0130\u015fleniyor...":"Formu \xe7er\xe7eveye yerle\u015ftirin4",n,n,n,n,B.nW,n,n)
+if(s){s=A.K(o.f?"\u0130\u015fleniyor...":"Formu \xe7er\xe7eveye yerle\u015ftirin6",n,n,n,n,B.nW,n,n)
 r=o.as
 if(r===1)q="LGS"
 else q=r===2?"TYT":"?"
@@ -107892,17 +107892,17 @@ break}p=4
 m=null
 l=null
 k=null
-s=a3.ch!=null?7:9
+a0=a3.ch
+s=a0!=null?7:9
 break
 case 7:p=11
-a0=a3.ax
-m=a0.videoWidth
-l=a0.videoHeight
-if(J.e(m,0)||J.e(l,0)){s=1
-break}s=14
-return A.A(A.f2(a3.ch.grabFrame(),t.m),$async$$1)
+s=14
+return A.A(A.f2(a0.grabFrame(),t.m),$async$$1)
 case 14:j=a8
-a0=a3.ay
+m=j.width
+l=j.height
+if(J.e(m,0)||J.e(l,0)){s=1
+break}a0=a3.ay
 a0.toString
 a0.width=m
 a0=a3.ay
