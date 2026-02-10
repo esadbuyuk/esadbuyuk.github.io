@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap varsa buraya ekleyin
+# Sitemap: https://vooptik.com.tr/sitemap.xml
